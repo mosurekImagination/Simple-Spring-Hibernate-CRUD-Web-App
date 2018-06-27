@@ -18,7 +18,11 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Mvc Crud Demo Servlet" removed="false">
+          <file>file://$MODULE_DIR$/web/WEB-INF/spring-mvc-crud-demo-servlet.xml</file>
+        </fileset>
+      </configuration>
     </facet>
     <facet type="jpa" name="JPA">
       <configuration>
@@ -44,5 +48,7 @@
     <orderEntry type="library" name="JPA 2.0-2.0" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.46" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.46-bin" level="application" />
+    <orderEntry type="library" name="mchange-commons-java-0.2.11" level="project" />
+    <orderEntry type="library" name="spring-webmvc-5.0.7.RELEASE" level="project" />
   </component>
 </module>
